@@ -45,7 +45,7 @@ export class FoodsContoller {
               You want to edit a ${foodParams.make} belonging to ${params.id}`;
   };
 
-  //DELETE
+  //
   @Post(':id/delete')
   async delete(@Param() params) {
       return `You delete ${params.id}`
